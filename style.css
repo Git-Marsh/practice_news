@@ -152,6 +152,12 @@ footer > .container > .terms {
   header {
     display: none;
   }
+  .news-main-part {
+    grid-template-areas:
+      "m m b"
+      "s1 s2 c"
+      "s3 s4 d" !important;
+  }
 }
 @media screen and (max-width: 559px) {
   .buttons {

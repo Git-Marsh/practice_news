@@ -159,8 +159,30 @@ footer > .container > .terms {
       "s3 s4 d" !important;
   }
 }
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 767px) {
   .buttons {
     display: none;
+  }
+  .news-main-part {
+    grid-template-areas:
+      "m m"
+      "b s1"
+      "s2 s3"
+      "s4 s4"
+      "c c"
+      "d d" !important;
+  }
+}
+@media screen and (max-width: 599px) {
+  .news-main-part {
+    grid-template-areas:
+      "m"
+      "b"
+      "s1"
+      "s2"
+      "s3"
+      "s4"
+      "c"
+      "d" !important;
   }
 }
